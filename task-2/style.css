@@ -1,0 +1,40 @@
+* {
+  /*  margin: 0;
+    padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.6rem;
+}
+
+.info-1,
+.info-2,
+.info-3 {
+  width: 33.13%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: aquamarine;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-align: left;
+  border-radius: 1rem;
+  padding: 5rem;
+}
+
+.info-1 {
+  background-image: url("../task-2/assets/task2-bg.jpeg");
+}
+.info-2 {
+  background-image: url("../task-2/assets/task2-bg1.jpeg");
+}
+.info-3 {
+  background-image: url("../task-2/assets/task2-bg2.jpg");
+}
